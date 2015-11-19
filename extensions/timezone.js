@@ -54,5 +54,5 @@ new(function() {
 	};
 
 	// Register the extension
-	ScratchExtensions.register('Translate - ipodlover3354', descriptor, ext);
+	ScratchExtensions.register('TimeZone - ipodlover3354', descriptor, ext);
 })();
