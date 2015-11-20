@@ -32,7 +32,11 @@ new(function() {
 		CODE
 	};*/
 	
-	ext.openWeb = function(link) {
+	ext.openWebNewWindow = function(link) {
+		window.location.href = link,'_blank';
+	};
+	
+	ext.openWebThisWindow = function(link) {
 		window.location.href = link;
 	};
 
@@ -40,7 +44,8 @@ new(function() {
 	var descriptor = {
 		blocks: [
 			// Block type, block name, function name, param1 default value, param2 default value
-			[' ', 'open %s in a new window', 'openWeb', 'http://scratchx.org/'],
+			[' ', 'open %s in a new window', 'openWebNewWindow', 'http://scratchx.org/'],
+			[' ', 'open %s in the current window', 'openWebThisWindow', 'http://scratchx.org/'],
 		],
 		menus: {
 		}
