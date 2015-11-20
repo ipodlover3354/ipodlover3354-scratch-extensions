@@ -39,6 +39,10 @@ new(function() {
 	ext.openWebThisWindow = function(link) {
 		window.location.href = link;
 	};
+	
+	ext.cookiesOn = funtion() {
+		return cookieEnabled = (navigator.cookieEnabled) ? true : false;
+	}
 
 	// Block and block menu descriptions
 	var descriptor = {
