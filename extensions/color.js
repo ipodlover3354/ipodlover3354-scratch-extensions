@@ -50,5 +50,5 @@ new(function() {
 	}};;
 
 	// Register the extension
-	ScratchExtensions.register(' - ipodlover3354', descriptor, ext);
+	ScratchExtensions.register('Color - ipodlover3354', descriptor, ext);
 })();
