@@ -50,6 +50,7 @@ new(function() {
 			// Block type, block name, function name, param1 default value, param2 default value
 			[' ', 'open %s in a new window', 'openWebNewWindow', 'http://scratchx.org/'],
 			[' ', 'open %s in the current window', 'openWebThisWindow', 'http://scratchx.org/'],
+			['b', 'cookies enabled?', 'cookiesOn'],
 		],
 		menus: {
 			
