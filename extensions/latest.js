@@ -40,7 +40,7 @@ new(function() {
 		window.location.href = link;
 	};
 	
-	ext.cookiesOn = funtion() {
+	ext.cookiesOn = function() {
 		return cookieEnabled = (navigator.cookieEnabled) ? true : false;
 	}
 
@@ -52,6 +52,7 @@ new(function() {
 			[' ', 'open %s in the current window', 'openWebThisWindow', 'http://scratchx.org/'],
 		],
 		menus: {
+			
 		}
 	};
 
