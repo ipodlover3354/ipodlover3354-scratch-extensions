@@ -6,6 +6,7 @@
 // @description  An extension for scratch. By ipodlover3354.
 // @match      *://scratch.mit.edu/projects/*
 // @author ipodlover3354
+// @type text/javascript
 // ==/UserScript==
 
 console.log("Extension working. Made by ipodlover3354 using an example script");
