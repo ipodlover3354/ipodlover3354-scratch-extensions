@@ -14,7 +14,7 @@ console.log("Extension working. Made by ipodlover3354 using an example script");
 /* This is differnet */
 
 new(function() {
-	var ext = this;
+	var ext = {};
 
 	// Cleanup function when the extension is unloaded
 	ext._shutdown = function() {};
