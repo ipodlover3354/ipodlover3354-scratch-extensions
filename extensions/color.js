@@ -30,8 +30,7 @@ new(function() {
 	}
 	
 	ext.hextodec = function(hex) {
-		var decimal = decimal.ToString(10);
-		return decimal;
+		 return parseInt(hex, 16).toString(10);
 	}
 	
 	ext.dectohex = function(dec) {
