@@ -51,7 +51,7 @@ new(function() {
 			// Block type, block name, function name, param1 default value, param2 default value
 			['r',"return color %c",'color'],
 			['r', "hex to dec %s", 'hextodec',"000"],
-			['r', "dec to hex %n", 'dectohex',"15"],
+			['r', "dec to hex %n", 'dectohex',15],
 			['r','decode URI %s','decodeURI'],
 			['r','encode URI %s','encodeURI']
 		],
