@@ -13,8 +13,8 @@ console.log("Extension working. Made by ipodlover3354 using an example script");
 /* Originally by Sayamindu Dasgupta <sayamindu@media.mit.edu>, May 2014 */
 /* This is differnet */
 
-new(function() {
-	var ext = this;
+(function() {
+	var ext = {};
 
 	// Cleanup function when the extension is unloaded
 	ext._shutdown = function() {};

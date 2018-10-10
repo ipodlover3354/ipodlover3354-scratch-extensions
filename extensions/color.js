@@ -29,6 +29,18 @@ new(function() {
 		return color;
 	}
 	
+	ext.hextodec = function(hex) {
+		 return parseInt(hex, 16).toString(10);
+	}
+	
+	ext.dectohex = function(dec) {
+		return dec.toString(16);
+	}
+	
+	ext.convert = function(input, from, to) {
+		 return parseInt(input, from).toString(to);
+	}
+	
 	ext.decodeURI = function(uri) {
 		return decodeURI(uri);
 	}
@@ -42,6 +54,9 @@ new(function() {
 		blocks: [
 			// Block type, block name, function name, param1 default value, param2 default value
 			['r',"return color %c",'color'],
+			['r', "hex to dec %s", 'hextodec',"000"],
+			['r', "dec to hex %n", 'dectohex',15],
+			['r', "covert %s from base %n to base %n", 'convert', "10", 10, 2],
 			['r','decode URI %s','decodeURI'],
 			['r','encode URI %s','encodeURI']
 		],
